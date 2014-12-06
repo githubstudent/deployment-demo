@@ -1,4 +1,4 @@
 deployment-demo
 ===============
 
-When Travis CI status is green auto deploy application to Heroku
+Auto deploy application to Heroku
