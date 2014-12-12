@@ -1,6 +1,6 @@
 language: ruby
 authorization_server: https://octodemo.com
 rvm:
-  - 2.1.1
-# uncomment this line if your project needs to run something other than `rake`:
-# script: bundle exec rspec spec
+  - 2.1.0
+
+script: ruby test.rb
