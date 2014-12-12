@@ -1,6 +1,6 @@
 ENV['RACK_ENV'] = 'test'
 
-require 'web'
+require_relative 'web'
 require 'test/unit'
 require 'rack/test'
 
