@@ -3,4 +3,4 @@ authorization_server: https://octodemo.com
 rvm:
   - 2.1.4
 
-script: ruby test.rb
+script: bundle exec ruby test.rb
