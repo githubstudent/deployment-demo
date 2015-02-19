@@ -13,7 +13,7 @@ class HelloWorldTest < Test::Unit::TestCase
 
   def test_it_says_hello_world
     get '/'
-    puts last_response.inspect
+    puts last_response.body.inspect
     assert last_response.ok?
     assert last_response.body.include?('Hello Danish')
   end
