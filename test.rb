@@ -14,6 +14,6 @@ class HelloWorldTest < Test::Unit::TestCase
   def test_it_says_hello_world
     get '/'
     assert last_response.ok?
-    assert last_response.body.include?('Hello, Danish')
+    assert last_response.body.include?('Hello, Bob')
   end
 end
