@@ -1,6 +1,6 @@
 require 'sinatra'
 #If you change this statement, don't forget about tests.rb!
 get '/' do
-  @body = 'Hello, @brntbeer!'
+  @welcome_message = 'Hello, GE Teams!'
   erb :index
 end
