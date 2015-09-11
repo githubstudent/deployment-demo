@@ -4,14 +4,14 @@ require_relative 'web'
 require 'test/unit'
 require 'rack/test'
 
-class HelloWorldTest < Test::Unit::TestCase
+class IndexTemplateTest < Test::Unit::TestCase
   include Rack::Test::Methods
 
   def app
     Sinatra::Application
   end
 
-  def test_it_says_hello_world
+  def test_it_has_welcome_message
     get '/'
     assert last_response.ok?
     assert last_response.body.include?('Hello, GE EMEA and APAC!')
